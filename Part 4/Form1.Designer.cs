@@ -106,9 +106,8 @@
             this.lblRan.AutoSize = true;
             this.lblRan.Location = new System.Drawing.Point(12, 233);
             this.lblRan.Name = "lblRan";
-            this.lblRan.Size = new System.Drawing.Size(35, 13);
+            this.lblRan.Size = new System.Drawing.Size(0, 13);
             this.lblRan.TabIndex = 7;
-            this.lblRan.Text = "label1";
             // 
             // RandomNumber
             // 

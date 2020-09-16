@@ -13,10 +13,14 @@ namespace Part_4
     public partial class RandomNumber : Form
     {
         Random generator = new Random();
+
+        string RanF;
         int MaxI;
         int MinI;
+        int Ran;
         double dMax;
         double dMin;
+        double RanD;
         public RandomNumber()
         {
             InitializeComponent();
@@ -42,8 +46,8 @@ namespace Part_4
 
 
 
-                int Ran = generator.Next(MinI, MaxI);
-                string RanF = Convert.ToString(Ran);
+                Ran = generator.Next(MinI, MaxI);
+                RanF = Convert.ToString(Ran);
                 lblRan.Text = RanF;
             }
 
@@ -64,8 +68,8 @@ namespace Part_4
                 dMax = Convert.ToDouble(numMA.Value);
                 dMin = Convert.ToDouble(numMI.Value);
 
-                double Ran = generator.NextDouble() * (dMax - dMin) + dMin;
-                string RanF = Convert.ToString(Ran);
+                RanD = generator.NextDouble() * (dMax - dMin) + dMin;
+                RanF = Convert.ToString(RanD);
                 lblRan.Text = RanF;
             }
 
