@@ -42,7 +42,7 @@
             // 
             // btnInt
             // 
-            this.btnInt.Location = new System.Drawing.Point(12, 181);
+            this.btnInt.Location = new System.Drawing.Point(2, 186);
             this.btnInt.Name = "btnInt";
             this.btnInt.Size = new System.Drawing.Size(98, 23);
             this.btnInt.TabIndex = 0;
@@ -52,7 +52,7 @@
             // 
             // btnDouble
             // 
-            this.btnDouble.Location = new System.Drawing.Point(134, 181);
+            this.btnDouble.Location = new System.Drawing.Point(134, 186);
             this.btnDouble.Name = "btnDouble";
             this.btnDouble.Size = new System.Drawing.Size(108, 23);
             this.btnDouble.TabIndex = 1;
@@ -104,7 +104,7 @@
             // lblRan
             // 
             this.lblRan.AutoSize = true;
-            this.lblRan.Location = new System.Drawing.Point(27, 236);
+            this.lblRan.Location = new System.Drawing.Point(12, 233);
             this.lblRan.Name = "lblRan";
             this.lblRan.Size = new System.Drawing.Size(35, 13);
             this.lblRan.TabIndex = 7;
@@ -114,7 +114,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(254, 299);
+            this.ClientSize = new System.Drawing.Size(254, 262);
             this.Controls.Add(this.lblRan);
             this.Controls.Add(this.numMI);
             this.Controls.Add(this.numMA);
